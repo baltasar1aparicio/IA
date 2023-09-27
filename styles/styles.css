@@ -1,0 +1,110 @@
+body {
+    background: linear-gradient(45deg, #333333, #000000);
+    height: 735px;
+  }
+  
+  .container {
+    display: flex;
+    margin-top: 200px;
+  }
+  
+  .card {
+    width: 100%;
+    height: 254px;
+    background-image: linear-gradient(163deg, #de1a1a 0%, #cc00e3 100%);
+    border-radius: 20px;
+    transition: all .3s;
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #E0E2DB;
+  }
+  
+  .card-content {
+    width: 100%;
+    height: 254px;
+    background-color: #1a1a1a;
+    border-radius: 10px;
+    transition: all .2s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .card-content:hover {
+    transform: scale(0.98);
+    border-radius: 20px;
+  }
+  
+  .card:hover {
+    box-shadow: 0px 0px 30px 1px rgba(198, 50, 227, 0.3);
+  }
+  
+  .nombre-ia {
+    color: #E0E2DB;
+    text-align: center;
+    margin: 0px;
+  }
+  
+  .navbar {
+    background-color: #f8f9fa;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .navbar-brand {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo {
+    font-weight: bold;
+    font-size: 20px;
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .navbar-menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .navbar-menu li {
+    margin-right: 10px;
+  }
+  
+  .navbar-menu li a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  @media (max-width: 768px) {
+    .navbar {
+      flex-direction: column;
+    }
+  
+    .navbar-menu {
+      margin-top: 10px;
+    }
+  
+    .navbar-menu li {
+      margin-right: 0;
+      margin-bottom: 5px;
+    }
+  }
+  
+  .navbar {
+    background-color: transparent;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  
